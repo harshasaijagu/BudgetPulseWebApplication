@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/postgresql-dotnet-core/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj": {}
+    "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj": {}
   },
   "projects": {
-    "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/postgresql-dotnet-core/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj": {
+    "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/postgresql-dotnet-core/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
+        "projectUniqueName": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
         "projectName": "PostgreSqlDotnetCore",
-        "projectPath": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/postgresql-dotnet-core/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
+        "projectPath": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
         "packagesPath": "/Users/prudhviteja/.nuget/packages/",
-        "outputPath": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/postgresql-dotnet-core/PostgreSqlDotnetCore/obj/",
+        "outputPath": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{3D6D235F-22B4-49A5-8D4B-2B941CF86945}|https">
+  <MonoDevelop.Ide.ItemProperties.PostgreSqlDotnetCore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PostgreSqlDotnetCore/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="PostgreSqlDotnetCore/Program.cs" Line="19" Column="2" />
+      <File FileName="PostgreSqlDotnetCore/Views/Shared/_Layout.cshtml" Line="17" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PostgreSqlDotnetCore" expanded="True" selected="True">
+            <Node name="PostgreSqlDotnetCore" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
