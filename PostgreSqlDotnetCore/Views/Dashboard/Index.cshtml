@@ -1,0 +1,97 @@
+﻿@model PostgreSqlDotnetCore.Models.DashboardViewModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+<header>
+    <div id="navbar1" class="navbar top">
+        <h1 class="logo">
+            <span class="text-primary"><i class="fas fa-book-open"></i> Budget</span>Pulse
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="@Url.Action("Index", "Dashboard")">Dashboard</a></li>
+                <li><a href="@Url.Action("Index", "Expense")">Expenses</a></li>
+                @*<li><a href="@Url.Action("Index", "About")">About</a></li>*@
+                @if (TempData != null)
+                {
+
+                    <li><a href="@Url.Action("Logout", "Home")">Logout</a></li>
+                }
+                else
+                {
+                    <li><a href="@Url.Action("Login", "Home")">Login</a></li>
+                }
+
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div class="dashboard">
+    <h2>Welcome, @Model.UserName! Your Dashboard</h2>
+    
+    <div class="dashboard-content">
+        <div class="budget-input">
+            <h3>Set Your Monthly Budget</h3>
+            <form asp-action="SetBudget" method="post">
+                <input type="number" asp-for="MonthlyBudget" id="monthly-budget-input" placeholder="Enter your monthly budget" />
+                <button type="submit" id="set-budget-button">Set Budget</button>
+            </form>
+            <div class="card">
+                <h3>Monthly Budget</h3>
+                <p id="monthly-budget">@Model.MonthlyBudget.ToString("C")</p>
+            </div>
+            <div class="card">
+                <h3>Expenses This Month</h3>
+                <p id="monthly-expenses">@Model.MonthlyExpenses.ToString("C")</p>
+            </div>
+            <div class="card">
+                <h3>Remaining Budget</h3>
+                <p id="remaining-budget">@Model.RemainingBudget.ToString("C")</p>
+            </div>
+        </div>
+        <div class="expense-chart">
+            <h3>Expense Breakdown</h3>
+            <canvas id="expenseChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+        // Initialize the expense chart
+        const ctx = document.getElementById('expenseChart').getContext('2d');
+        const expenseChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(Json.Serialize(Model.ExpenseData.Keys)),
+                datasets: [{
+                    label: 'Expenses',
+                    data: @Html.Raw(Json.Serialize(Model.ExpenseData.Values)),
+                    backgroundColor: ['#4CAF50', '#2196F3', '#FF9800', '#E91E63','#E91E50']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
+</script>
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous"></script>
+<script src="js/site.js"></script>
+<script>const navbar = document.getElementById('navbar1');
+
+    window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 100) {
+            navbar.classList.add('show');
+        } else {
+            navbar.classList.remove('show');
+        }
+    });</script>
+
+
+

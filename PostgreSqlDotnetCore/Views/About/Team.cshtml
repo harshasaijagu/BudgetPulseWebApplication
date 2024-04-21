@@ -1,0 +1,20 @@
+﻿@model IEnumerable<PostgreSqlDotnetCore.Models.TeamMember>
+
+@{
+    ViewData["Title"] = "Our Team";
+}
+
+<div class="about">
+    <h2>Meet Our Team</h2>
+    <div class="team-members">
+        @foreach (var member in Model)
+        {
+            <div class="team-member">
+                <img src="~/img/@member.ImageUrl" alt="@member.Name's Image">
+                <h3>@member.Name</h3>
+                <p>@member.Position</p>
+                <p>@member.Bio</p>
+            </div>
+        }
+    </div>
+</div>

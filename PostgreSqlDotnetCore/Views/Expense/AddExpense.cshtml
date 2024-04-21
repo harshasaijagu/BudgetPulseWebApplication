@@ -1,0 +1,58 @@
+﻿@model PostgreSqlDotnetCore.Models.Expense
+
+@{
+    ViewData["Title"] = "Add Expense";
+}
+<header>
+    <div id="navbar" class="navbar top">
+        <h1 class="logo">
+            <span class="text-primary"><i class="fas fa-book-open"></i> Budget</span>Pulse
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="@Url.Action("Index", "Dashboard")">Dashboard</a></li>
+                <li><a href="@Url.Action("Index", "Expense")">Expenses</a></li>
+                @*<li><a href="@Url.Action("Index", "About")">About</a></li>*@
+                @if (TempData != null)
+                {
+
+                    <li><a href="@Url.Action("Logout", "Home")">Logout</a></li>
+                }
+                else
+                {
+                    <li><a href="@Url.Action("Login", "Home")">Login</a></li>
+                }
+
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<div class="add-expense">
+    <h2>Add Expense</h2>
+    <form class="expense-form" asp-action="AddExpense" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <label asp-for="expense_type" class="control-label"></label>
+        <select asp-for="expense_type" class="form-control">
+            <option value="">Select Expense Type</option>
+            <option value="groceries">Groceries</option>
+            <option value="rent">Rent</option>
+            <option value="transportation">Transportation</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="other">Other</option>
+        </select>
+        <span asp-validation-for="expense_type" class="text-danger"></span>
+
+        <label asp-for="amount" class="control-label"></label>
+        <input asp-for="amount" class="form-control" />
+        <span asp-validation-for="amount" class="text-danger"></span>
+
+        <label asp-for="expense_date" class="control-label"></label>
+        <input asp-for="expense_date" type="date" class="form-control" />
+        <span asp-validation-for="expense_date" class="text-danger"></span>
+
+        <button type="submit" class="add-expense-button">Submit</button>
+    </form>
+</div>

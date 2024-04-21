@@ -1,0 +1,76 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*<title>@ViewData["Title"] - Personal Finance Tracker<</title>*@
+    <link rel="stylesheet" href="/css/site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+          integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+          crossorigin="anonymous" />
+    <title>Welcome To BudgetPulse</title>
+</head>
+<body>
+    @*<header>
+            <nav>
+                <ul>
+                    <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                    <li><a href="@Url.Action("Index", "Dashboard")">Dashboard</a></li>
+                    <li><a href="@Url.Action("Index", "Expense")">Expenses</a></li>
+                    <li><a href="@Url.Action("Index", "About")">About</a></li>
+                </ul>
+                <div class="user-profile">
+                    @if (TempData["UserName"] != null)
+                        {
+                        <span>TempData["UserName"]</span>
+                        <a href="@Url.Action("Logout", "Home")">Logout</a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Login", "Home")">Login</a>
+                    }
+                </div>
+            </nav>
+        </header>*@
+
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer class="footer bg-dark">
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <p>Copyright &copy; 2024 - BudgetPulse</p>
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+@*<script>$(document).ready(function () {
+        calculateTotalAmount();
+    });
+
+    function calculateTotalAmount() {
+        var totalAmount = 0;
+        $(".expense-amount").each(function () {
+            var amount = parseFloat($(this).text().replace("$", "").replace(",", ""));
+            totalAmount += amount;
+        });
+        $("#total-amount").text(totalAmount.toFixed(2));
+    }</script>*@
+</html>
+
+
+
