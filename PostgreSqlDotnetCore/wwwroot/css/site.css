@@ -828,6 +828,15 @@ body.lb-disable-scrolling {
     padding: 3rem;
     background-color: rgba(0,0,0,0.6);
 }
+
+.expense .green-text {
+    color: #28a745;
+}
+
+.expense .white-text {
+    color: white;
+}
+
 .expense h2 {
     font-size: 2.5rem; /* Increase the font size */
     margin-top: 4rem;
@@ -876,7 +885,7 @@ body.lb-disable-scrolling {
     padding: 3rem;
 }
 
-.team-members {
+/*.team-members {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
@@ -898,6 +907,75 @@ body.lb-disable-scrolling {
         border-radius: 50%;
         margin-bottom: 1rem;
     }
+
+.team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}*/
+
+/*Start */
+.team-members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.team-member-container {
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 1rem;
+    flex-basis: 40%;
+    margin-bottom: 20px;
+}
+
+.individual-team-member {
+    display: flex;
+    justify-content: space-between;
+}
+
+    .individual-team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 1rem;
+    }
+
+    .individual-team-member h4 {
+        font-size: 1.5rem;
+    }
+
+    .individual-team-member p {
+        margin-bottom: 10px;
+    }
+
+.left {
+    width: 30%;
+}
+
+.individual-team-member .left h4,
+.individual-team-member .left p {
+    margin-bottom: -10px; /* Adjust as needed */
+}
+
+.right {
+    width: 70%; /* Adjust according to your needs */
+    text-align: justify;
+}
+
+.padding {
+    height: 20px; /* Adjust as needed */
+}
+
+
+/*end*/
 
 /* Footer */
 footer {

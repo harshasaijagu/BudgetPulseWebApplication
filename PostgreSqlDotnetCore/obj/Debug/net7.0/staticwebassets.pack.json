@@ -21,18 +21,6 @@
       "PackagePath": "staticwebassets/images/.DS_Store"
     },
     {
-      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/blog/blog1.jpg",
-      "PackagePath": "staticwebassets/images/blog/blog1.jpg"
-    },
-    {
-      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/blog/blog2.jpg",
-      "PackagePath": "staticwebassets/images/blog/blog2.jpg"
-    },
-    {
-      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/blog/blog3.jpg",
-      "PackagePath": "staticwebassets/images/blog/blog3.jpg"
-    },
-    {
       "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/cases/cases1.jpg",
       "PackagePath": "staticwebassets/images/cases/cases1.jpg"
     },
@@ -73,16 +61,12 @@
       "PackagePath": "staticwebassets/images/favicon.png"
     },
     {
-      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/home/blog.jpg",
-      "PackagePath": "staticwebassets/images/home/blog.jpg"
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/home/.DS_Store",
+      "PackagePath": "staticwebassets/images/home/.DS_Store"
     },
     {
-      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/home/contact.jpg",
-      "PackagePath": "staticwebassets/images/home/contact.jpg"
-    },
-    {
-      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/home/people.jpg",
-      "PackagePath": "staticwebassets/images/home/people.jpg"
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/home/hero.jpg",
+      "PackagePath": "staticwebassets/images/home/hero.jpg"
     },
     {
       "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/home/showcase.jpg",
@@ -101,16 +85,24 @@
       "PackagePath": "staticwebassets/images/prev.png"
     },
     {
-      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/person1.jpg",
-      "PackagePath": "staticwebassets/images/team/person1.jpg"
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/.DS_Store",
+      "PackagePath": "staticwebassets/images/team/.DS_Store"
     },
     {
-      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/person2.jpg",
-      "PackagePath": "staticwebassets/images/team/person2.jpg"
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/anuraag.jpg",
+      "PackagePath": "staticwebassets/images/team/anuraag.jpg"
     },
     {
-      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/person3.jpg",
-      "PackagePath": "staticwebassets/images/team/person3.jpg"
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/harsha.jpg",
+      "PackagePath": "staticwebassets/images/team/harsha.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/harsha3.jpg",
+      "PackagePath": "staticwebassets/images/team/harsha3.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/prudhvi.jpg",
+      "PackagePath": "staticwebassets/images/team/prudhvi.jpg"
     },
     {
       "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/js/site.js",
