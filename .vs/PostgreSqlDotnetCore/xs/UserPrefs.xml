@@ -1,38 +1,37 @@
 ﻿<Properties StartupConfiguration="{3D6D235F-22B4-49A5-8D4B-2B941CF86945}|https">
-  <MonoDevelop.Ide.ItemProperties.PostgreSqlDotnetCore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PostgreSqlDotnetCore PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="PostgreSqlDotnetCore/Views/Home/Index.cshtml">
     <Files>
       <File FileName="PostgreSqlDotnetCore/Program.cs" />
       <File FileName="PostgreSqlDotnetCore/Views/Shared/_Layout.cshtml" />
       <File FileName="PostgreSqlDotnetCore/Views/Expense/AddExpense.cshtml" />
       <File FileName="PostgreSqlDotnetCore/Controllers/ExpenseController.cs" />
-      <File FileName="PostgreSqlDotnetCore/Views/Home/Index.cshtml" Line="89" Column="28" />
+      <File FileName="PostgreSqlDotnetCore/Views/Home/Index.cshtml" Line="2" Column="37" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PostgreSqlDotnetCore">
+          <Node name="PostgreSqlDotnetCore" expanded="True" selected="True">
             <Node name="PostgreSqlDotnetCore">
-              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Dashboard" expanded="True" />
-                <Node name="Expense" expanded="True" />
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True" />
+              <Node name="wwwroot">
+                <Node name="images">
+                  <Node name="team" expanded="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

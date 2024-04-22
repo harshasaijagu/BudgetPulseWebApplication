@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/obj/Release/net7.0/scopedcss/projectbundle/PostgreSqlDotnetCore.bundle.scp.css",
+      "PackagePath": "staticwebassets/PostgreSqlDotnetCore.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/cases/.DS_Store",
+      "PackagePath": "staticwebassets/images/cases/.DS_Store"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/cases/case1.jpg",
+      "PackagePath": "staticwebassets/images/cases/case1.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/cases/case2.jpg",
+      "PackagePath": "staticwebassets/images/cases/case2.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/cases/case3.jpg",
+      "PackagePath": "staticwebassets/images/cases/case3.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/cases/case4.jpg",
+      "PackagePath": "staticwebassets/images/cases/case4.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/close.png",
+      "PackagePath": "staticwebassets/images/close.png"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/favicon.png",
+      "PackagePath": "staticwebassets/images/favicon.png"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/home/.DS_Store",
+      "PackagePath": "staticwebassets/images/home/.DS_Store"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/home/hero.jpg",
+      "PackagePath": "staticwebassets/images/home/hero.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/home/showcase.jpg",
+      "PackagePath": "staticwebassets/images/home/showcase.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/loading.gif",
+      "PackagePath": "staticwebassets/images/loading.gif"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/next.png",
+      "PackagePath": "staticwebassets/images/next.png"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/prev.png",
+      "PackagePath": "staticwebassets/images/prev.png"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/.DS_Store",
+      "PackagePath": "staticwebassets/images/team/.DS_Store"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/anuraag.jpg",
+      "PackagePath": "staticwebassets/images/team/anuraag.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/harsha.jpg",
+      "PackagePath": "staticwebassets/images/team/harsha.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/harsha3.jpg",
+      "PackagePath": "staticwebassets/images/team/harsha3.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/harshasai.jpg",
+      "PackagePath": "staticwebassets/images/team/harshasai.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/niharika.jpg",
+      "PackagePath": "staticwebassets/images/team/niharika.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/images/team/prudhvi.jpg",
+      "PackagePath": "staticwebassets/images/team/prudhvi.jpg"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.PostgreSqlDotnetCore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.build.PostgreSqlDotnetCore.props",
+      "PackagePath": "build\\PostgreSqlDotnetCore.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildMultiTargeting.PostgreSqlDotnetCore.props",
+      "PackagePath": "buildMultiTargeting\\PostgreSqlDotnetCore.props"
+    },
+    {
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildTransitive.PostgreSqlDotnetCore.props",
+      "PackagePath": "buildTransitive\\PostgreSqlDotnetCore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

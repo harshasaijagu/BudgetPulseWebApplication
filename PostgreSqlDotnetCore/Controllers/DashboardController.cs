@@ -73,6 +73,7 @@ namespace PostgreSqlDotnetCore.Controllers
                         amount = monthlyBudget
                     };
                     _context.budgets.Add(budget);
+                    _context.SaveChanges();
                     return RedirectToAction("Index");
                 }
                 else

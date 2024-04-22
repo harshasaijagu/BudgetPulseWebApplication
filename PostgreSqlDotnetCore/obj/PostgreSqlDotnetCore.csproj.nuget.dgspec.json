@@ -1,26 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/Users/harshasaijagu/Downloads/Course Work/DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj": {}
+    "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj": {}
   },
   "projects": {
-    "/Users/harshasaijagu/Downloads/Course Work/DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj": {
+    "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/harshasaijagu/Downloads/Course Work/DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
+        "projectUniqueName": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
         "projectName": "PostgreSqlDotnetCore",
-        "projectPath": "/Users/harshasaijagu/Downloads/Course Work/DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
-        "packagesPath": "/Users/harshasaijagu/.nuget/packages/",
-        "outputPath": "/Users/harshasaijagu/Downloads/Course Work/DIS/BudgetPulse/PostgreSqlDotnetCore/obj/",
+        "projectPath": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
+        "packagesPath": "/Users/prudhviteja/.nuget/packages/",
+        "outputPath": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/harshasaijagu/.nuget/NuGet/NuGet.Config"
+          "/Users/prudhviteja/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.314/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.313/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
         }
       }
     }

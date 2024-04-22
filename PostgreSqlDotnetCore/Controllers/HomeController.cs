@@ -31,11 +31,11 @@ namespace PostgreSqlDotnetCore.Controllers
             if (ModelState.IsValid)
             {
                 // Check if the user already exists
-                var existingUser = _context.users.FirstOrDefault(u => u.email == user.email);
+                var existingUser = _context.users.FirstOrDefault(u => u.username == user.username);
                 if (existingUser != null)
                 {
-                    ModelState.AddModelError("email", "Email address is already registered.");
-                    return RedirectToAction("Login"); 
+                    ModelState.AddModelError("email", "username not available");
+                    return RedirectToAction("Register"); 
                 }
 
                 // Add the new user to the database
@@ -55,7 +55,7 @@ namespace PostgreSqlDotnetCore.Controllers
             return View();
         }
 
-        [HttpGet]
+        [HttpPost]
         public IActionResult Loginuser(User user)
         {
             user.email = null;
@@ -75,7 +75,7 @@ namespace PostgreSqlDotnetCore.Controllers
                 else
                 {
                     // Display an error message and return to the login page
-                    ModelState.AddModelError("", "Invalid email or password.");
+                    ModelState.AddModelError("", "Invalid username or password.");
                     return RedirectToAction("Login", "Home");
                 }
             }
