@@ -41,15 +41,15 @@
             </form>
             <div class="card">
                 <h3>Monthly Budget</h3>
-                <p id="monthly-budget">@Model.MonthlyBudget.ToString("C")</p>
+                <p id="monthly-budget">@($"${Model.MonthlyBudget}")</p>
             </div>
             <div class="card">
                 <h3>Expenses This Month</h3>
-                <p id="monthly-expenses">@Model.MonthlyExpenses.ToString("C")</p>
+                <p id="monthly-expenses">@($"${Model.MonthlyExpenses}")</p>
             </div>
             <div class="card">
                 <h3>Remaining Budget</h3>
-                <p id="remaining-budget">@Model.RemainingBudget.ToString("C")</p>
+                <p id="remaining-budget">@($"${Model.RemainingBudget}")</p>
             </div>
         </div>
         <div class="expense-chart">
@@ -70,7 +70,7 @@
                 datasets: [{
                     label: 'Expenses',
                     data: @Html.Raw(Json.Serialize(Model.ExpenseData.Values)),
-                    backgroundColor: ['#4CAF50', '#2196F3', '#FF9800', '#E91E63','#E91E50']
+                    backgroundColor: ['#4CAF50', '#2196F3', '#FF9800', '#E91E63','#800080']
                 }]
             },
             options: {

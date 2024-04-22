@@ -829,6 +829,10 @@ body.lb-disable-scrolling {
     background-color: rgba(0,0,0,0.6);
 }
 
+    .expense tbody {
+        color: white;
+    }
+
 .expense .green-text {
     color: #28a745;
 }

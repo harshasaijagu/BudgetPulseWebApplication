@@ -49,7 +49,9 @@
                 <tr>
                     <td>@expense.expense_date.ToString("yyyy-MM-dd")</td>
                     <td>@expense.expense_type</td>
-                    <td><span>$</span>@expense.amount.ToString("C")</td>
+                    @*<td><span>$</span>@expense.amount.ToString("C")</td>*@
+                    <td>@($"${expense.amount}")</td>
+
 
 
                     <td>

@@ -3985,29 +3985,25 @@
     ]
   },
   "packageFolders": {
-    "/Users/prudhviteja/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "/Users/harshasaijagu/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
+      "projectUniqueName": "/Users/harshasaijagu/Downloads/Course Work/DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
       "projectName": "PostgreSqlDotnetCore",
-      "projectPath": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
-      "packagesPath": "/Users/prudhviteja/.nuget/packages/",
-      "outputPath": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/obj/",
+      "projectPath": "/Users/harshasaijagu/Downloads/Course Work/DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
+      "packagesPath": "/Users/harshasaijagu/.nuget/packages/",
+      "outputPath": "/Users/harshasaijagu/Downloads/Course Work/DIS/BudgetPulse/PostgreSqlDotnetCore/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "/Users/prudhviteja/.nuget/NuGet/NuGet.Config"
+        "/Users/harshasaijagu/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.313/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.314/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4070,7 +4066,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.314/RuntimeIdentifierGraph.json"
       }
     }
   }
