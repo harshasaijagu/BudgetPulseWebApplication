@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PostgreSqlDotnetCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7edeccd78a9d5645d725034bfb6c4b2d27efb03e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a1ab377c86e08f47573d9b7bf22b3e84de8e2a2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PostgreSqlDotnetCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PostgreSqlDotnetCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
