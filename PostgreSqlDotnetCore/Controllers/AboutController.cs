@@ -19,7 +19,7 @@ namespace PostgreSqlDotnetCore.Controllers
 
         public IActionResult Team()
         {
-            // Retrieve the team members from the repository
+            // Retrieve the team members from repository
             var teamMembers = _teamMemberRepository.GetTeamMembers();
             return View(teamMembers);
         }

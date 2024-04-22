@@ -1,29 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj": {}
+    "C:\\Users\\ANURAAG\\Source\\Repos\\BudgetPulse\\PostgreSqlDotnetCore\\PostgreSqlDotnetCore.csproj": {}
   },
   "projects": {
-    "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj": {
+    "C:\\Users\\ANURAAG\\Source\\Repos\\BudgetPulse\\PostgreSqlDotnetCore\\PostgreSqlDotnetCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
+        "projectUniqueName": "C:\\Users\\ANURAAG\\Source\\Repos\\BudgetPulse\\PostgreSqlDotnetCore\\PostgreSqlDotnetCore.csproj",
         "projectName": "PostgreSqlDotnetCore",
-        "projectPath": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/PostgreSqlDotnetCore.csproj",
-        "packagesPath": "/Users/prudhviteja/.nuget/packages/",
-        "outputPath": "/Users/prudhviteja/Desktop/USF/Second Sem/DIS/class_projects/Test_class_DIS/BudgetPulse/PostgreSqlDotnetCore/obj/",
+        "projectPath": "C:\\Users\\ANURAAG\\Source\\Repos\\BudgetPulse\\PostgreSqlDotnetCore\\PostgreSqlDotnetCore.csproj",
+        "packagesPath": "C:\\Users\\ANURAAG\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ANURAAG\\Source\\Repos\\BudgetPulse\\PostgreSqlDotnetCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/prudhviteja/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ANURAAG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.313/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -36,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -86,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
