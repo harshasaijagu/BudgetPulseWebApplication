@@ -885,40 +885,10 @@ body.lb-disable-scrolling {
     }
 
 /* About page */
+
 .about {
     padding: 3rem;
 }
-
-/*.team-members {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
-.team-member {
-    background-color: #f4f4f4;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    margin: 0 1rem;
-    flex-basis: 40%;
-}
-
-    .team-member img {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin-bottom: 1rem;
-    }
-
-.team-members {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-}*/
 
 /*Start */
 .team-members {
@@ -976,6 +946,16 @@ body.lb-disable-scrolling {
 
 .padding {
     height: 20px; /* Adjust as needed */
+}
+
+.individual-team-member {
+    display: flex;
+    align-items: center; /* Vertical center alignment */
+}
+
+.right {
+    flex: 1; /* Take remaining space */
+    margin-left: 20px; /* Adjust spacing between image and text */
 }
 
 
