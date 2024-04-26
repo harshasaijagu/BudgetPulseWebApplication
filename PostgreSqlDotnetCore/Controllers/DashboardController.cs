@@ -3,6 +3,8 @@ using PostgreSqlDotnetCore.Data;
 using PostgreSqlDotnetCore.Models;
 using PostgreSqlDotnetCore.repositories;
 using System;
+using System.Globalization;
+
 namespace PostgreSqlDotnetCore.Controllers
 {
    
@@ -29,10 +31,18 @@ namespace PostgreSqlDotnetCore.Controllers
                 var monthlyBudget = _context.budgets.FirstOrDefault(b => b.user_id == userId.Value && b.month == DateTime.Now.Month && b.year == DateTime.Now.Year)?.amount ?? 0;
                 var monthlyExpenses = _context.expenses.Where(e => e.user_id == userId.Value && e.expense_date.Month == DateTime.Now.Month && e.expense_date.Year == DateTime.Now.Year).Sum(e => e.amount);
                 var remainingBudget = monthlyBudget - monthlyExpenses;
-
+                var TotalExpenses= _context.expenses.Where(e => e.user_id == userId.Value).Sum(e => e.amount);
+                // Get the current month name
+                var currentMonthName = new DateTimeFormatInfo().GetMonthName(DateTime.Now.Month);
                 // Retrieve the expense data for the chart
                 var expenseData = _context.expenses
                     .Where(e => e.user_id == userId.Value && e.expense_date.Month == DateTime.Now.Month && e.expense_date.Year == DateTime.Now.Year)
+                    .GroupBy(e => e.expense_type)
+                    .ToDictionary(g => g.Key, g => g.Sum(e => e.amount));
+
+                // Retrieve the expense data for the chart
+                var TotalExpenseData = _context.expenses
+                    .Where(e => e.user_id == userId.Value)
                     .GroupBy(e => e.expense_type)
                     .ToDictionary(g => g.Key, g => g.Sum(e => e.amount));
 
@@ -43,7 +53,12 @@ namespace PostgreSqlDotnetCore.Controllers
                     MonthlyExpenses = monthlyExpenses,
                     RemainingBudget = remainingBudget,
                     ExpenseData = expenseData,
-                    UserName= userName
+                    UserName = userName,
+                    TotalExpenseData = TotalExpenseData,
+                    TotalExpenses = TotalExpenses,
+                    CurrentMonth= currentMonthName
+
+
                 };
                 return View(viewModel);
             }

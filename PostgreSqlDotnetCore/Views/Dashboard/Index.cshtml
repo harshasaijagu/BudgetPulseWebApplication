@@ -31,10 +31,10 @@
 
 <div class="dashboard">
     <h2>Welcome, @Model.UserName! Your Dashboard</h2>
-    
+
     <div class="dashboard-content">
         <div class="budget-input">
-            <h3>Set Your Monthly Budget</h3>
+            <h3>Set Your  @Model.CurrentMonth Month Budget</h3>
             <form asp-action="SetBudget" method="post">
                 <input type="number" asp-for="MonthlyBudget" id="monthly-budget-input" placeholder="Enter your monthly budget" />
                 <button type="submit" id="set-budget-button">Set Budget</button>
@@ -53,14 +53,30 @@
             </div>
         </div>
         <div class="expense-chart">
-            <h3>Expense Breakdown</h3>
+            <h3>Expense Breakdown for @Model.CurrentMonth month</h3>
             <canvas id="expenseChart"></canvas>
         </div>
+    </div>
+
+
+    <div class="dashboard-content">
+        <div class="budget-input">
+
+            <div class="card">
+                <h3>Total Expenses</h3>
+                <p id="monthly-budget">@($"${Model.TotalExpenses}")</p>
+            </div>
+        </div>
+        <div class="expense-chart">
+            <h3>Total Expenses Breakdown</h3>
+            <canvas id="TotalExpenseChart"></canvas>
+        </div> 
     </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
+
         // Initialize the expense chart
         const ctx = document.getElementById('expenseChart').getContext('2d');
         const expenseChart = new Chart(ctx, {
@@ -68,7 +84,7 @@
             data: {
                 labels: @Html.Raw(Json.Serialize(Model.ExpenseData.Keys)),
                 datasets: [{
-                    label: 'Expenses',
+
                     data: @Html.Raw(Json.Serialize(Model.ExpenseData.Values)),
                     backgroundColor: ['#4CAF50', '#2196F3', '#FF9800', '#E91E63','#800080']
                 }]
@@ -76,6 +92,40 @@
             options: {
                 responsive: true,
                 maintainAspectRatio: false
+            }
+        });
+         // Initialize the total expense chart
+        const ctx_1 = document.getElementById('TotalExpenseChart').getContext('2d');
+        const TotalExpenseChart = new Chart(ctx_1, {
+            type: 'doughnut',
+            data: {
+                labels: @Html.Raw(Json.Serialize(Model.TotalExpenseData.Keys)),
+                datasets: [{
+                    data: @Html.Raw(Json.Serialize(Model.TotalExpenseData.Values)),
+                    backgroundColor: ['#4CAF50', '#2196F3', '#FF9800', '#E91E63', '#800080']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'right',
+                        labels: {
+                            generateLabels: (chart) => {
+                                const data = chart.data;
+                                if (data.labels && data.datasets.length) {
+                                    const total = data.datasets[0].data.reduce((a, b) => a + b, 0);
+                                    return data.labels.map((label, i) => ({
+                                        text: `${label} (${((data.datasets[0].data[i] / total) * 100).toFixed(2)}%)`,
+                                        fillStyle: data.datasets[0].backgroundColor[i]
+                                    }));
+                                }
+                                return [];
+                            }
+                        }
+                    }
+                }
             }
         });
 </script>
