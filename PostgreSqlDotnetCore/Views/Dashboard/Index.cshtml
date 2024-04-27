@@ -1,4 +1,5 @@
-﻿@model PostgreSqlDotnetCore.Models.DashboardViewModel
+﻿@using System.Globalization
+@model PostgreSqlDotnetCore.Models.DashboardViewModel
 
 @{
     ViewData["Title"] = "Dashboard";
@@ -63,16 +64,40 @@
         <div class="budget-input">
 
             <div class="card">
-                <h3>Total Expenses</h3>
+                <h3>Total Expenses </h3>
                 <p id="monthly-budget">@($"${Model.TotalExpenses}")</p>
             </div>
+            <div class="card">
+                <h3>Total Budget </h3>
+                <p id="monthly-budget">@($"${Model.TotalBudget}")</p>
+            </div>
+
         </div>
         <div class="expense-chart">
             <h3>Total Expenses Breakdown</h3>
             <canvas id="TotalExpenseChart"></canvas>
-        </div> 
+        </div>
+
+    </div>
+    <div class="dashboard-content">
+        <div class="budget-input">
+
+            <div class="card">
+                <h3>Total Savings from the past 12 months</h3>
+                <p id="monthly-budget">@($"${Model.Profit}")</p>
+            </div>
+            <div class="card">
+                <h3>Expected Expenes in next month</h3>
+                <p id="monthly-budget">@($"${Model.NextMonthExpensesForecast}")</p>
+            </div>
+        </div>
+        <div class="expense-chart">
+            <h3>Budget vs Expenses for the Past 12 Months</h3>
+            <canvas id="budgetExpenseChart"></canvas>
+        </div>
     </div>
 </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
@@ -129,6 +154,84 @@
             }
         });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    // Initialize the budget vs expenses chart
+const ctx1 = document.getElementById('budgetExpenseChart').getContext('2d');
+const budgetExpenseChart = new Chart(ctx1, {
+    type: 'bar',
+    data: {
+        labels: @Html.Raw(Json.Serialize(Enumerable.Range(-11, 12).Select(i =>
+            new DateTimeFormatInfo().GetMonthName(DateTime.Now.AddMonths(i).Month) + " " + DateTime.Now.AddMonths(i).Year))),
+        datasets: [
+            {
+                type: 'line',
+                label: 'Budget',
+                data: @Html.Raw(Json.Serialize(Enumerable.Range(-11, 12).Select(i =>
+                {
+                    var budget = Model.MonthlyBudgets_12.Where(b => b.month == DateTime.Now.AddMonths(i).Month && b.year == DateTime.Now.AddMonths(i).Year)
+                        .OrderByDescending(b => b.year)
+                        .Select(b => b.amount)
+                        .FirstOrDefault();
+                    return budget > 0 ? budget : 0;
+                }))),
+                borderColor: 'blue',
+                yAxisID: 'budget-axis'
+            },
+            {
+                type: 'line',
+                label: 'Expenses',
+                data: @Html.Raw(Json.Serialize(Enumerable.Range(-11, 12).Select(i =>
+                {
+                    var expenses = Model.MonthlyExpenses_12.GetValueOrDefault<(int, int), decimal>((DateTime.Now.AddMonths(i).Month, DateTime.Now.AddMonths(i).Year), 0);
+                    return expenses;
+                }))),
+                borderColor: 'red',
+                yAxisID: 'budget-axis'
+            },
+            {
+                type: 'bar',
+                label: 'Profit/Loss',
+                data: @Html.Raw(Json.Serialize(Enumerable.Range(-11, 12).Select(i =>
+                {
+                    var budget = Model.MonthlyBudgets_12.Where(b => b.month == DateTime.Now.AddMonths(i).Month && b.year == DateTime.Now.AddMonths(i).Year)
+                        .OrderByDescending(b => b.year)
+                        .Select(b => b.amount)
+                        .FirstOrDefault();
+                    var expenses = Model.MonthlyExpenses_12.GetValueOrDefault<(int, int), decimal>((DateTime.Now.AddMonths(i).Month, DateTime.Now.AddMonths(i).Year), 0);
+                    return budget > 0 ? budget - expenses : 0;
+                }))),
+                backgroundColor: '#28a745',
+                yAxisID: 'profit-axis'
+            }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            'budget-axis': {
+                type: 'linear',
+                position: 'left',
+                title: {
+                    display: true,
+                    text: 'Budget and Expenses'
+                }
+            },
+            'profit-axis': {
+                type: 'linear',
+                position: 'right',
+                title: {
+                    display: true,
+                    text: 'Profit/Loss'
+                }
+            }
+        }
+    }
+});
+</script>
+
+
+
 <script src="https://code.jquery.com/jquery-3.5.0.min.js"
         integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
         crossorigin="anonymous"></script>

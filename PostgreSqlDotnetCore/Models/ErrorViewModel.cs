@@ -32,14 +32,21 @@ namespace PostgreSqlDotnetCore.Models
 
     public class DashboardViewModel
     {
+        public List<Budget> MonthlyBudgets_12 { get; set; }
+        //public Dictionary<(int Month, int Year), decimal> MonthlyExpenses_12 { get; set; }
+        public Dictionary<(int Month, int Year), decimal> MonthlyExpenses_12 { get; set; }
+        public decimal TotalExpenses { get; set; }
+        public decimal TotalBudget_12 { get; set; }
+        public decimal Profit { get; set; }
+        public decimal NextMonthExpensesForecast { get; set; }
         public decimal MonthlyBudget { get; set; }
         public decimal MonthlyExpenses { get; set; }
         public decimal RemainingBudget { get; set; }
         public Dictionary<string, decimal>? ExpenseData { get; set; }
         public string UserName { get; set; }
         public Dictionary<string, decimal>? TotalExpenseData { get; set; }
-        public decimal TotalExpenses { get; set; }
         public string CurrentMonth { get; set; }
+        public decimal TotalBudget { get; set; }
     }
 
     public class Expense

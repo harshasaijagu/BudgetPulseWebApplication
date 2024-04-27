@@ -4,7 +4,7 @@
     ViewData["Title"] = "Expenses";
     Decimal TotalSum = 0;
 }
-<header >
+<header>
     <div id="navbar" class="navbar top">
         <h1 class="logo">
             <span class="text-primary"><i class="fas fa-book-open"></i> Budget</span>Pulse
@@ -32,35 +32,40 @@
 
 <div class="expense">
     <h2>Your Expenses</h2>
-    <table class="expense-table">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Expense Type</th>
-                <th>Amount</th>
+    <div class="expense-table-container">
+        
+            <table class="expense-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Expense Type</th>
+                        <th>Amount</th>
 
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var expense in Model)
-            {
-                TotalSum += expense.amount;
-                <tr>
-                    <td>@expense.expense_date.ToString("yyyy-MM-dd")</td>
-                    <td>@expense.expense_type</td>
-                    @*<td><span>$</span>@expense.amount.ToString("C")</td>*@
-                    <td>@($"${expense.amount}")</td>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var expense in Model)
+                    {
+                        TotalSum += expense.amount;
+                        <tr>
+                            <td>@expense.expense_date.ToString("yyyy-MM-dd")</td>
+                            <td>@expense.expense_type</td>
+                            @*<td><span>$</span>@expense.amount.ToString("C")</td>*@
+                            <td>@($"${expense.amount}")</td>
 
 
 
-                    <td>
-                        <a href="@Url.Action("DeleteExpense", "Expense", new { id = expense.expense_id })" class="btn btn-danger btn-sm">Delete</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+                            <td>
+                                <a href="@Url.Action("DeleteExpense", "Expense", new { id = expense.expense_id })" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        
+    </div>
+    
     <div class="total-amount">
         <strong>Total:</strong>
         $<span id="total-amount">@TotalSum.ToString("N2")</span>
@@ -71,3 +76,12 @@
     <a href="@Url.Action("AddExpense", "Expense")" class="add-expense-button">Add Expense</a>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.expense-table-container').on('scroll', function() {
+            var scrollTop = $(this).scrollTop();
+            $('.expense-table thead').css('transform', 'translateY(' + scrollTop + 'px)');
+        });
+    });
+</script>
