@@ -98,8 +98,9 @@ img {
     .navbar1.show {
         transform: translateY(70px); /* Show the navbar when scrolled down */
     }
-    navbar1 ul li a.active {
-    color: #007bff;
+navbar1 ul li a.active {
+    color: #28a745;
+    
     font-weight: bold;
 }
     /* Header */
