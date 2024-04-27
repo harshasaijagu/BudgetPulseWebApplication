@@ -75,6 +75,10 @@ img {
     .navbar .logo {
         font-weight: 400;
     }
+    .active {
+        color: #28a745;
+        font-weight: bold;
+    }
 
 /*specialNavbar*/
 .navbar1 {
@@ -94,15 +98,18 @@ img {
     .navbar1.show {
         transform: translateY(70px); /* Show the navbar when scrolled down */
     }
-
-/* Header */
-header.hero {
-    background-image: url('/images/home/showcase.jpg');
-    background-position: center;
-    height: 100vh;
-    position: relative;
-    color: #fff;
+    navbar1 ul li a.active {
+    color: #007bff;
+    font-weight: bold;
 }
+    /* Header */
+    header.hero {
+        background-image: url('/images/home/showcase.jpg');
+        background-position: center;
+        height: 100vh;
+        position: relative;
+        color: #fff;
+    }
 
 .hero .content {
     position: relative; /* Add this to ensure content is on top of the background */
